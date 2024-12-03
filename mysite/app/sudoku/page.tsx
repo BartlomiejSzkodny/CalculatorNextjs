@@ -19,7 +19,7 @@ export default function Home() {
 
     function randomSudoku() {
         const sudoku = Array(81).fill(0);
-        for (let i = 0; i < 20; i++) {
+        for (let i = 0; i < 9; i++) {
             let index = Math.floor(Math.random() * 81);
             let value = Math.floor(Math.random() * 9) + 1;
             sudoku[index] = value;
