@@ -9,7 +9,7 @@ export default function Home() {
             <ul>
                 <li><a href="/calculator">Calculator</a></li>
                 <li><a href="/sudoku">Sudoku</a></li>
-
+                <li><a href="/tic-tac-toe">Tic Tac Toe</a></li>
             </ul>
 
 
